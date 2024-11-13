@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="menu.css">
+    <link rel="stylesheet" href="nav.css">
+    <title>Job</title>
+</head>
+<body>
+    <header>
+        <div class="navbar">
+            <nav>
+                <ul class="menu">
+                    <li class="logo">
+                        <!-- change the name of logo according to your name of image (mani/vengu) -->
+                        <a href="#"><img src="p2.png" alt="Placeme Logo" style="height: 40px;"></a>
+                    </li>
+                    <div class="item">
+                        
+                    
+                        <li ><a href="{% url 'job_seeker:home' %}"><i class="fa-solid fa-house"></i>Home</a></li>
+                    </div>
+                    <div class="item">
+                        <li><a href="{% url 'job_seeker:job' %}"><img src="./img/suitcase.png" class="bag-logo">Jobs</a></li>
+                    </div>
+                    <div class="item">
+                        <li><a href="{% url 'job_seeker:profile' %}"><i class="fa-solid fa-bell"></i>Notifications</a></li>
+                    </div>
+                    
+                    <li class="item"><a href="{% url 'job_seeker:profile' %}"><img src="./img/profile-user.png" class="profile-logo">Profile</a></li>
+                    <li class="toggle" id="menu-toggle"><span class="bars"></span></li>
+                    <li class="item button"><a href="{% url 'auth:login' %}">Log In</a></li>
+                    <li class="item">
+                        <select name="Usertypes" onchange="location = this.value;">
+                            <option value="{% url 'job_seeker:home' %}">Job Seeker</option>
+                            <option value="{% url 'recruiters:home' %}">Recruiter</option>
+                            <option value="{% url 'administrator:dashboard' %}">Administrator</option>
+                            <option value="{% url 'refer_and_earn:home' %}">Refer and earn</option>
+                        </select> 
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <section>
+        <div class="all-menu">
+            <ul class="menu-item">
+                <li class="save"><a>Saved(3)</a></li>
+                <li class="applied"><a>Applied(3)</a></li>
+                <li class="offer"><a>My Offers(0)</a></li>
+            </ul>
+        </div>
+
+        <div class="try">
+            
+        </div>
+    </section>
+    
+</body>
+</html>
