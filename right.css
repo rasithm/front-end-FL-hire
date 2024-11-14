@@ -93,6 +93,8 @@ body {
     background-color: aquamarine;
     height: 250px;
     margin-top: 5px;
+    position: sticky;
+    top: 130px;
     
     
     
