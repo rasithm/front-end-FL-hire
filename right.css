@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    white-space: nowrap;
+    
+}
+body {
+    font-family: sans-serif;
+    
+  }
+.right{
+    height: 1500px;
+    width: 50%;
+    
+    border-top-right-radius: 15px;
+    white-space: nowrap;
+    z-index: 1;
+    
+}
+.right-dev-info-fixed-1-part1{
+    /*background-color: lightgrey;*/
+    height: 130px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 50%;
+    
+}
+.right-fixied-commpany{
+    margin-bottom: 10px;
+}
+
+.right-a-div{
+    height:35px;
+    margin-top: 10px;
+}
+.right-a{
+    text-decoration: solid;
+    text-transform: capitalize;
+    text-decoration-line: underline;
+    text-decoration-color: blue;
+    color: blue;
+}
+
+.right-dev-info-fixed-1-1{
+    /*background-color: darkkhaki;*/
+    display: flex;
+    flex-direction: row;
+    margin-right: 20px;
+    border-bottom: 1.9px solid #888686;
+    background-color: white;
+}
+.a-aboutjob{
+    background-color: #141B5F;
+    color:#FFFFFF;
+    padding: 10px;
+    border-radius: 30px;
+    font-weight: 300;
+    position: absolute;
+    top: 10px;
+    left: 160px;
+    font-family: 'Poppins', sans-serif;
+}
+.right-dev-info-fixed-1-part2{
+    position: relative;
+    background-color: red;
+    
+}
+
+
+/*fixed-box-2*/
+.application-div-text{
+    background-color: honeydew;
+    margin-top: 3px;
+
+}
+.application-status-p{
+    font-weight: 500;
+    text-transform:capitalize;
+}
+
+
+
+
+
+
+
+
+.right-dev-info-fixed-1{
+    background-color: aquamarine;
+    height: 250px;
+    margin-top: 5px;
+    
+    
+    
+}
+
+.right-dev-info{
+    background-color: bisque;
+    height: 1300px;
+    margin-left: 15px;
+    
+
+}
+.right-insert{
+    background-color: red;
+    height: 1500px;
+    
+}
+
+
