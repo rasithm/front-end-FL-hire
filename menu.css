@@ -13,7 +13,8 @@ body {
     font-family: 'Poppins', sans-serif;
 }
 .all-menu{
-    margin-left: 80px;
+    margin-left: 5.2%;
+    margin-right: 6.1%;
     margin-top:20px;
     background-color: rgb(255, 255, 255);
     width: 90%;
@@ -24,18 +25,15 @@ body {
 }
 .menu-item{
     display: flex;
-    justify-content: center;
-    align-items: center;
+    justify-content: space-evenly;
+
+    
 }
 .save,.applied,.offer{
     margin: 20px;
-    margin-right: 200px;
-    margin-left: 120px;
     color: black;
-    font-size: 16px;
     font-weight: 600;
     color: rgb(14, 5, 102);
-   
 }
 .save a:hover,.applied a:hover,.offer a:hover{
     color: #FF8C00;
@@ -46,10 +44,113 @@ body {
 .all-menu ul li a:before {
   transition: all .5s;
 }
+
+
+
+/*responsive design*/
+/*iphone SE*/
+@media screen and (min-width:375px) {
+    .save,.applied,.offer{
+        font-size: 12px;
+    }
+}
+/*iphone XR*/
+@media screen and (min-width:414px) {
+    .save,.applied,.offer{
+        font-size: 14px;
+    }
+}
+/*iphone 12 pro*/
+@media screen and (min-width:390px) {
+    .save,.applied,.offer{
+        font-size: 13px;
+    }
+}
+/*samsung galaxy s8+*/
+@media screen and (min-width:360px) {
+    .save,.applied,.offer{
+        font-size: 12px;
+    }
+}
+/*samsung galaxy s20 ultra*/
+@media screen and (min-width:412px) {
+    .save,.applied,.offer{
+        font-size: 14px;
+    }
+}
+/*samsung galaxy s20 ultra*/
+@media screen and (min-width:768px) {
+    .save,.applied,.offer{
+        font-size: 24px;
+    }
+}
+@media screen and (min-width:786px) {
+    .save,.applied,.offer{
+        font-size: 28px;
+    }
+}
+@media screen and (min-width:820px) {
+    .save,.applied,.offer{
+        font-size: 30px;
+    }
+}
+@media screen and (min-width:1024px) {
+    .save,.applied,.offer{
+        font-size: 20px;
+    }
+}
+@media screen and (min-width:912px) {
+    .save,.applied,.offer{
+        font-size: 28px;
+    }
+}
+@media screen and (min-width:540px) {
+    .save,.applied,.offer{
+        font-size: 20px;
+    }
+}
+@media screen and (min-width:344px) {
+    .save,.applied,.offer{
+        font-size: 10px;
+    }
+}
+@media screen and (min-width:853px) {
+    .save,.applied,.offer{
+        font-size: 20px;
+    }
+}
+@media screen and (min-width:412px) {
+    .save,.applied,.offer{
+        font-size: 14px;
+    }
+}
+@media screen and (min-width:1024px) {
+    .save,.applied,.offer{
+        font-size: 18px;
+    }
+}
+@media screen and (min-width:1280px) {
+    .save,.applied,.offer{
+        font-size: 18px;
+    }
+}
+
 /*.try{
     height: 1000px;
     background-color: black;
 }*/
+.dev-list{
+    height: 1000px;
+    width: 90%;
+    background-color: rgb(255, 255, 255);
+    margin-left: 5.2%;
+    margin-right: 6.1%;
+    margin-top: 2%;
+    border-radius: 15px;
+
+}
+
+
 
 
 
