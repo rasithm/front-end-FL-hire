@@ -92,13 +92,37 @@ body {
 .right-dev-info-fixed-1{
     background-color: aquamarine;
     height: 250px;
-    margin-top: 5px;
+    margin-top: 2px;
     position: sticky;
     top: 130px;
+    border-bottom: 1.9px solid #888686;
     
     
     
 }
+/*competed fixed box*/
+/*start recommation job info box*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.right-recommendation-div{
+    margin-top: 10px;
+    background-color: brown;
+}
+
+
 
 .right-dev-info{
     background-color: bisque;
@@ -112,5 +136,9 @@ body {
     height: 1500px;
     
 }
+
+
+
+
 
 
