@@ -21,7 +21,7 @@ body {
     border-radius: 15px;
     margin-top: 100px;
     position: sticky;
-    top: 65px;
+    top: 64px;
 }
 .menu-item{
     display: flex;
@@ -53,6 +53,7 @@ body {
     .save,.applied,.offer{
         font-size: 12px;
     }
+    
 }
 /*iphone XR*/
 @media screen and (min-width:414px) {
@@ -145,10 +146,55 @@ body {
     background-color: rgb(255, 255, 255);
     margin-left: 5.2%;
     margin-right: 6.1%;
-    margin-top: 2%;
+    margin-top: 20px;
     border-radius: 15px;
+    display: flex;
 
 }
+.left{
+    height: 1000px;
+    width: 50%;
+    
+    border-top-left-radius: 15px;
+    border-right: 2px solid black;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+.right{
+    height: 1000px;
+    width: 50%;
+    
+    border-top-right-radius: 15px;
+    
+}
+.dev-detail-1{
+    height: 150px;
+    width: 100%;
+    background-color: #FF8C00;
+    border-bottom: 1.5px solid black;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.dev-detail-1-inside{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: rgb(223, 212, 208);
+    height: 100px;
+}
+.application{
+    display: flex;
+    flex-direction: row;
+
+}
+.checkbox{
+    forced-color-adjust: green;
+}
+
+
+
 
 
 
