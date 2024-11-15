@@ -126,6 +126,7 @@ body {
     background-color: rgb(153, 153, 153);
     border-radius: 15px;
     white-space: nowrap;
+    margin-bottom: 10px;
 }
 .fa-circle-check{
     color: #47B749;
@@ -136,8 +137,9 @@ body {
     
 }
 .application-saved{
-    color:#555555 ;
+    color: black;
     white-space: nowrap;
+    
 }
 .dev-box1{
     display: flex;
@@ -219,8 +221,9 @@ body {
     
 }
 .application-saved{
-    color: #555555;
+    color: black;
     white-space: nowrap;
+    
 }
 .dev-box2{
     display: flex;

@@ -29,8 +29,10 @@ body {
     width: 50%;
     
 }
-.right-fixied-commpany{
+.right-fixied-company{
     margin-bottom: 10px;
+    color: #141B5F;
+    font-weight: 600;
 }
 
 .right-a-div{
@@ -40,9 +42,11 @@ body {
 .right-a{
     text-decoration: solid;
     text-transform: capitalize;
-    text-decoration-line: underline;
-    text-decoration-color: blue;
-    color: blue;
+    text-decoration-line: underline ;
+    
+    text-decoration-color: #8A96DE;
+    color: #8A96DE;
+    font-weight: 600;
 }
 
 .right-dev-info-fixed-1-1{
