@@ -135,7 +135,9 @@
     flex-direction: row;
     justify-content: space-evenly;
 }
-
+.right-rec-box-adv-ul li{
+    margin-bottom: 5px;
+}
 
 .right-rec-box-info-adv{
     
@@ -144,6 +146,7 @@
     margin-top: 3px;
     border-bottom-left-radius: 15px;
     border-bottom-right-radius:15px ;
+    height: 15%;
     display: flex;
     flex-direction: column;
     
