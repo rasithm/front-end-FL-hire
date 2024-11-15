@@ -89,12 +89,11 @@
 /*part 2 box 2 detial*/
 .right-rec-box-info-language .right-box-ul-lag li{
     background-color: darkgrey;
-    padding-top: 3px;
-    padding-bottom: 3px;
-    padding-left: 5px;
-    padding-right: 5px;
+    
+    padding-left: 15px;
+    padding-right: 15px;
     display: flex;
-    border-radius: 7px;
+    border-radius: 20px;
     
 }
 
@@ -104,11 +103,14 @@
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
+    align-items: center;
+    
 }
 .right-rec-box-info-language{
-    height: 20%;
+    height: 25%;
     background-color: burlywood;
-    margin-top: 3px;
+    padding-top: 5px;
+    
     
 }
 
