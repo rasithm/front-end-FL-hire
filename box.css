@@ -68,7 +68,7 @@
 
 .right-rec-box-name{
     background-color: chocolate;
-    height: 30%;
+    height: 28%;
     border-radius: 15px;
     display: flex;
     flex-direction: row;
@@ -153,7 +153,7 @@
 
 
 .right-rec-box-info{
-    height: 55%;
+    height: 57%;
     background-color: brown;
     margin-top: 4px;
 }
@@ -170,7 +170,7 @@
 
 
 .right-rec-box-1{
-    height: 250px;
+    height: 270px;
     background-color: rgb(143, 177, 63);
     border-radius: 15px;
     padding: 5px;

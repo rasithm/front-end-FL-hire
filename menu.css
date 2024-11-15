@@ -17,13 +17,13 @@ body {
 .all-menu{
     margin-left: 70px;
     margin-right: 20px;
-    margin-top:20px;
+    
     background-color: rgb(255, 255, 255);
-    width: 90%;
+    width: 1210px;
     border-radius: 15px;
-    margin-top: 100px;
+    margin-top: 80px;
     position: sticky;
-    top: 64px;
+    top: 54px;
     z-index: 2;
 }
 .menu-item{
@@ -34,6 +34,8 @@ body {
 }
 .save,.applied,.offer{
     margin: 20px;
+    margin-top: 15px;
+    margin-bottom: 15px;
     
     font-weight: 600;
     
@@ -61,7 +63,7 @@ body {
 }*/
 .dev-list{
     height: 1500px;
-    width: 90%;
+    width: 1210px;
     background-color: rgb(255, 255, 255);
     margin-left: 70px;
     margin-right: 70px;
@@ -85,7 +87,7 @@ body {
 
 /*box all*/
 .dev-detail-1{
-    height: 150px;
+    height: 130px;
     width: 100%;
     margin-left: 20px;
     margin-right: 25px;
@@ -120,7 +122,7 @@ body {
     flex-direction: row;
     text-align: center;
     justify-content: space-evenly;
-    width: 210px;
+    width: 180px;
     background-color: rgb(153, 153, 153);
     border-radius: 15px;
     white-space: nowrap;
@@ -167,7 +169,7 @@ body {
 
 
 .dev-detail-2{
-    height: 150px;
+    height: 130px;
     width: 100%;
     
     border-bottom: 1.5px solid #888686;
@@ -207,7 +209,7 @@ body {
     flex-direction: row;
     text-align: center;
     justify-content: space-evenly;
-    width: 210px;
+    width: 180px;
     background-color: #E6E6E6;
     border-radius: 15px;
     white-space: nowrap;
@@ -229,6 +231,8 @@ body {
     width: 70px;
     background-color:  #D9D9D9;
     margin: 30px;
+    margin-left: 19px;
+    margin-right: 70px;
     margin-top: 15px;
     white-space: nowrap;
 }
